@@ -1136,7 +1136,7 @@ try {
             .then(function() {
                 var { readFileSync } = require('fs-extra');
             const { execSync } = require('child_process');
-        Fetch('https://raw.githubusercontent.com/Anupx0/Dark-Rulex/main/package.json').then(async (/** @type {{ body: { toString: () => string; }; }} */res) => {
+        Fetch('https://raw.githubusercontent.com/Anupx0/fca-dark-rulex/main/package.json').then(async (/** @type {{ body: { toString: () => string; }; }} */res) => {
             const localVersion = JSON.parse(readFileSync('./node_modules/fca-dark-rulex/package.json')).version;
                 if (Number(localVersion.replace(/\./g,"")) < Number(JSON.parse(res.body.toString()).version.replace(/\./g,"")) ) {
                     log.warn("[ FCA-ALIYA ] •",getText(Language.NewVersionFound,JSON.parse(readFileSync('./node_modules/fca-dark-rulex/package.json')).version,JSON.parse(res.body.toString()).version));
