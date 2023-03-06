@@ -19,11 +19,11 @@ Note ! If You Want To Use This Api Please See The Document At [Here](https://git
 
 If You Want To Use It, Download It By:
 ```bash
-npm i fca-dark-rulex
+npm i inopen-test
 ```
 or
 ```bash
-npm fca-dark-rulex
+npm inopen-test
 ```
 
 It Will Load Into node_modules (Your Lib) - Note Replit Won't Show Where to Find
@@ -32,11 +32,11 @@ It Will Load Into node_modules (Your Lib) - Note Replit Won't Show Where to Find
 
 If You Want To Use The Latest Version Or Update Then Go To Terminal Or Command Prompt Enter :
 ```bash
-npm install fca-dark-rulex@latest
+npm install inopen-test@latest
 ```
 Or
 ```bash
-npm i fca-dark-rulex@latest
+npm i inopen-test@latest
 ```
 
 ## If You Want To Test Api
@@ -47,7 +47,7 @@ Use it with a Demo Account => [Facebook Whitehat Accounts](https://www.facebook.
 ## Using
 
 ```javascript
-const login = require("fca-dark-rulex"); // get it from the lib
+const login = require("inopen-test"); // get it from the lib
 
 // log in
 login({email: "Gmail Account", password: "Your Facebook Password"}, (err, api) => {
@@ -75,7 +75,7 @@ You Can Read Full Api At => [here](DOCS.md).
 
 You need to go to file Anup.js, Then Find Line
 ```js
-    var login = require('fca-dark-rulex'); 
+    var login = require('inopen-test'); 
     /* Maybe :
         var login = require('fca-anup');
         var login = require('fca-aliya-anup');
@@ -102,7 +102,7 @@ __Guide With Appstate__
 
 ```js
 const fs = require("fs");
-const login = require("fca-dark-rulex");
+const login = require("inopen-test");
 
 var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"}; // tk information
 
