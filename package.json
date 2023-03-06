@@ -1,0 +1,101 @@
+{
+  "name": "fca-dark-rulex",
+  "version": "1.0.9",
+  "description": "Facebook Chat Api Made by Anup Kumar",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "./node_modules/.bin/eslint **.js",
+    "prettier": "prettier utils.js src/* --write"
+  },
+  "author": "Anup Kumar, Aliya Khan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Anupx0/Dark-Rulex/issues"
+  },
+  "homepage": "https://github.com/Anupx0/Dark-Rulex#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Anupx0/Dark-Rulex"
+  },
+  "dependencies": {
+    "aes-js": "latest",
+    "aliya-anup-database": "latest",
+    "aliya-remake": "latest",
+    "assert": "latest",
+    "bluebird": "latest",
+    "body-parser": "latest",
+    "chalk": "4.1.2",
+    "cheerio": "latest",
+    "child_process": "latest",
+    "crypto": "latest",
+    "crypto-js": "latest",
+    "express": "latest",
+    "events": "latest",
+    "figlet": "latest",
+    "fs": "latest",
+    "fs-extra": "latest",
+    "got": "^11.8.3",
+    "https-proxy-agent": "latest",
+    "is-hexcolor": "^1.0.0",
+    "jsdom": "^20.0.3",
+    "lodash": "latest",
+    "mqtt": "latest",
+    "npmlog": "latest",
+    "os": "latest",
+    "path": "latest",
+    "pm2": "latest",
+    "pretty-ms": "7.0.1",
+    "querystring": "latest",
+    "readline": "latest",
+    "request": "latest",
+    "stream": "latest",
+    "totp-generator": "latest",
+    "uuid-apikey": "latest",
+    "websocket-stream": "latest",
+    "file-url": "^3.0.0",
+    "tough-cookie": "^4.1.2",
+    "url": "latest"
+    
+  },
+  "engines": {
+    "node": ">=14.x <16.x"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "mocha": "latest",
+    "prettier": "latest"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-unused-vars": [
+        1,
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ]
+    }
+  },
+  "keywords": [
+    "fca-dark-rulex",
+    "fca dark",
+    "dark rulex",
+    "fca aliya"
+  ]
+}
