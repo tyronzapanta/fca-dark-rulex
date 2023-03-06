@@ -31,7 +31,6 @@ jobs:
 
               run: npm publish --access public
 
-              working-directory: fca-dark-rulex 
 
               env:
 
