@@ -1,22 +1,22 @@
 {
-  "name": "fca-dark-rulex",
+  "name": "inopen-test",
   "version": "1.0.9",
-  "description": "Facebook Chat Api Made by Anup Kumar",
+  "description": "Facebook Chat Api Made by Unknown",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
     "lint": "./node_modules/.bin/eslint **.js",
     "prettier": "prettier utils.js src/* --write"
   },
-  "author": "Anup Kumar, Aliya Khan",
+  "author": "mr.unknown",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Anupx0/fca-dark-rulex/issues"
+    "url": "https://github.com/tyronzapanta/fca-dark-rulex/issues"
   },
-  "homepage": "https://github.com/Anupx0/fca-dark-rulex#readme",
+  "homepage": "https://github.com/tyronzapanta/fca-dark-rulex#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Anupx0/fca-dark-rulex"
+    "url": "https://github.com/tyronzapanta/fca-dark-rulex"
   },
   "dependencies": {
     "aes-js": "latest",
@@ -94,7 +94,7 @@
   },
   "keywords": [
     "fca-dark-rulex",
-    "fca dark",
+    "inopen-test",
     "dark rulex",
     "fca aliya"
   ]
